@@ -1,0 +1,43 @@
+/* Common Css Start */
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   outline:0;
+ }
+ ul{
+    list-style-type: none;
+ }
+ a{
+    text-decoration: none;
+ }
+/* Common Css End */
+
+#container{
+   width: 400px;
+   margin: 200px 500px;
+   
+}
+#btn{
+   font-size: 20px;
+   border-radius: 15px;
+   padding: 15px;
+   margin-left: 150px;
+   margin-top: 50px;
+   background-color: #F1C40F;
+   transition: .5s;
+}
+#btn:hover{
+   background-color: lime;
+   cursor: pointer;
+}
+#text{
+   border: 1px solid black;
+   border-radius: 5px;
+   font-size: 25px;
+   padding: 10px;
+}
+#demo{
+   font-size: 30px;
+   font-family: cursive;
+}
